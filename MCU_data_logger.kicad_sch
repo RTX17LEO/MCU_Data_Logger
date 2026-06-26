@@ -2872,12 +2872,6 @@
 		(uuid "b697d1ba-502f-4866-a895-c2a1a4d047a9")
 	)
 	(junction
-		(at 125.73 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "058be05e-78ec-4238-ba95-f396b83201e0")
-	)
-	(junction
 		(at 64.77 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2920,6 +2914,12 @@
 		(uuid "67ed8122-3ae2-4f9d-8dd3-6a122e50d75b")
 	)
 	(junction
+		(at 125.73 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70231d28-af98-4f13-9c1f-8db78a3c4d36")
+	)
+	(junction
 		(at 143.51 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2959,7 +2959,7 @@
 		(at 88.9 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f4244ae8-fbc7-414f-8a64-c2fa0903adeb")
+		(uuid "e983c9d3-4548-4eb3-86d7-febf008c5a45")
 	)
 	(junction
 		(at 208.28 43.18)
@@ -3227,7 +3227,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 52.07) (xy 129.54 52.07)
+			(xy 125.73 52.07) (xy 128.27 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3397,7 +3397,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 66.04) (xy 88.9 62.23)
+			(xy 88.9 55.88) (xy 88.9 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f4107de-76f8-4fdf-b934-67319bc588ea")
+	)
+	(wire
+		(pts
+			(xy 88.9 66.04) (xy 88.9 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3667,7 +3677,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 52.07) (xy 138.43 52.07)
+			(xy 135.89 52.07) (xy 138.43 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4687,7 +4697,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 88.9 58.42 180)
+		(at 88.9 59.69 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4698,7 +4708,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c2478fa-e4fa-45bf-9f9e-4382cd2ef057")
 		(property "Reference" "R2"
-			(at 91.44 57.1499 0)
+			(at 91.44 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4709,7 +4719,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 91.44 59.6899 0)
+			(at 91.44 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4720,7 +4730,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 90.678 58.42 90)
+			(at 90.678 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4731,7 +4741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 58.42 0)
+			(at 88.9 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4742,7 +4752,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 88.9 58.42 0)
+			(at 88.9 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6530,7 +6540,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 52.07 90)
+		(at 132.08 52.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6541,7 +6551,7 @@
 		(fields_autoplaced yes)
 		(uuid "a616e78e-c091-40f9-ae46-dd244aa9b678")
 		(property "Reference" "R5"
-			(at 133.35 45.72 90)
+			(at 132.08 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6551,7 +6561,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 133.35 48.26 90)
+			(at 132.08 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6561,7 +6571,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 133.35 53.848 90)
+			(at 132.08 53.848 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6572,7 +6582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 52.07 0)
+			(at 132.08 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6583,7 +6593,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 52.07 0)
+			(at 132.08 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
